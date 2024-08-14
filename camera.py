@@ -76,6 +76,10 @@ while True:
 
         # Calculate the angle between the line to the top-center of the screen and the line to the face center
         angle_between_lines = int(calculate_angle(center_of_screen, (frame_width // 2, 0), center_of_screen, center_of_face))
+        screenx,_ = center_of_screen
+        facex,_ = center_of_face
+        if screenx > facex:
+            angle_between_lines += 90
         print(f"Angle: {angle_between_lines} degrees")
 
     # Display the resulting frame
