@@ -71,5 +71,3 @@ This project involves a robotic arm controlled by a Raspberry Pi Pico, utilizing
 - **Advanced Control Algorithms**: Developing more sophisticated algorithms for smoother and more precise operations.
 
 ---
-
-This README is formatted for GitHub and provides clear, step-by-step instructions for running your robotic arm project.
