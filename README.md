@@ -1,8 +1,3 @@
-# Raspberry-Pi-Pico-H
-Here’s an updated README file for your GitHub repository:
-
----
-
 # **Robotic Arm Project using Raspberry Pi Pico and Thonny**
 
 ## **Overview**
