@@ -2,11 +2,11 @@
 
 ## **Overview**
 
-This project involves a robotic arm controlled by a Raspberry Pi Pico, utilizing a webcam for face tracking. The arm’s movements are controlled through Python scripts running on both the Pico (`pico.py`) and the host computer (`Arm.py`). Communication between the two is handled via the PySerial library.
+This project involves a robotic arm controlled by a Raspberry Pi Pico, utilizing a webcam for face tracking. The arm’s movements are controlled through Python scripts running on both the Pico (`Pico.py`) and the host computer (`Arm.py`). Communication between the two is handled via the PySerial library.
 
 ## **Project Structure**
 
-- **pico.py**: Script running on the Raspberry Pi Pico, responsible for interpreting commands received via serial communication and controlling the servo motor.
+- **Pico.py**: Script running on the Raspberry Pi Pico, responsible for interpreting commands received via serial communication and controlling the servo motor.
   
 - **Arm.py**: Script running on the host computer, which processes the webcam feed to track faces and calculates the required angles to move the robotic arm.
 
@@ -19,7 +19,7 @@ This project involves a robotic arm controlled by a Raspberry Pi Pico, utilizing
 - USB Cable (for power and communication)
 
 ### **Software**
-- **Thonny IDE**: To upload and run `pico.py` on the Raspberry Pi Pico.
+- **Thonny IDE**: To upload and run `Pico.py` on the Raspberry Pi Pico.
 - **Python 3.x**: Required for running the `Arm.py` script on your host computer.
 - **PySerial**: For serial communication between the host computer and Raspberry Pi Pico.
 - **OpenCV**: For processing webcam input.
@@ -36,10 +36,10 @@ This project involves a robotic arm controlled by a Raspberry Pi Pico, utilizing
      pip install pyserial opencv-python
      ```
 
-2. **Upload `pico.py` to Raspberry Pi Pico:**
+2. **Upload `Pico.py` to Raspberry Pi Pico:**
    - Open Thonny IDE.
    - Connect the Raspberry Pi Pico to your computer via USB.
-   - Open `pico.py` in Thonny and select the Raspberry Pi Pico as the interpreter.
+   - Open `Pico.py` in Thonny and select the Raspberry Pi Pico as the interpreter.
    - Upload the script to the Pico.
 
 3. **Run `Arm.py` on Your Host Computer:**
@@ -62,7 +62,7 @@ This project involves a robotic arm controlled by a Raspberry Pi Pico, utilizing
 
 - **Serial Connection Issues**: Ensure the correct COM port is set in `Arm.py`.
 - **Movement Calibration**: If the arm’s movements are inaccurate, check the webcam’s alignment and calibration settings in `Arm.py`.
-- **Pico Not Responding**: Restart the Raspberry Pi Pico and ensure `pico.py` is correctly uploaded and running.
+- **Pico Not Responding**: Restart the Raspberry Pi Pico and ensure `Pico.py` is correctly uploaded and running.
 
 ## **Future Enhancements**
 
